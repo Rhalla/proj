@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lyrics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" type='text/css'>
+</head>
+<body>
+<%
+    function getPosition(string, subString, index) {
+        return string.split(subString, index).join(subString).length;
+    }
+%>
+<div class="page-header">
+    <h1><a href="/">Lyrics</a></h1>
+    <a href="/new" class="button">NEW</a>
+</div>
+<div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+            <% list.forEach( function(item) { %>
+                <div class="post">
+                    <h1><a href="post/<%= item.id %>"><%= item.title %></a></h1>
+                    <p><%- item.text.substring(0, getPosition(item.text, "<br/>", 6)) %>...</p>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</div>
+</body>
+</html>

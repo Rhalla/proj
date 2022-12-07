@@ -1,0 +1,113 @@
+h1 a {
+    color: #006400;
+}
+
+body {
+    padding-left: 0px;
+    background-color: #FFF0F5;
+    font-family: Verdana;
+}
+
+.page-header {
+    background-color: #173d3b;
+    padding: 1px 1px 1px 50px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    display: inline-block;
+    color: #FFF0F5;
+    font-size: 54pt;
+    text-decoration: overline;
+}
+
+.content {
+    margin-left: 60px;
+}
+
+h1, h2, h3, h4 {
+    color: #390ced;
+    font-size: 25pt;
+    font-family: Verdana;
+}
+
+.date {
+    color: #808080;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin: 70px 0;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #173d3b;
+    text-decoration: none;
+}
+
+.button {
+    float: right;
+    margin: 65px;
+    border-radius: 15px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#title {
+    margin: 10px 0;
+    font-size: 18px;
+    display: block;
+}
+
+#text {
+    margin: 15px 0;
+    height: 350px;
+    width: 300px;
+    display: block;
+}
+
+.title_head {
+    display: contents;
+}
+
+.edit_butt {
+    margin-left: 15px;
+    text-decoration: none;
+    background-color: gainsboro;
+    font-weight: 900;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.del_butt {
+    float: right;
+    margin: 0 50px;
+    text-decoration: none;
+    background-color: #cb3333;
+    font-weight: 900;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #dcdcdc;
+}
